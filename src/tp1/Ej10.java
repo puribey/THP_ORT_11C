@@ -18,10 +18,10 @@ Obs: En el caso de que el usuario ingrese una hora menor a 0 o mayor a 24, mostr
 
 public class Ej10 {
     private static Scanner input = new Scanner (System.in);
-    public static void main (String [] args) {
+    public static final int HORA_APERTURA = 10;
+    public static final int HORA_CIERRE = 18;
 
-        final int HORA_APERTURA = 10;
-        final int HORA_CIERRE = 18;
+    public static void main (String [] args) {
         boolean estaAbierto;
         int hora;
 
