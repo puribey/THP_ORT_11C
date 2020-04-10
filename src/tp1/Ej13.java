@@ -17,11 +17,11 @@ public class Ej13 {
     public static final int PRECIO_HORA_EXTRA = 20;
 
     public static void main (String [] args) {
-        int horas;
-        int salario;
+        short horas;
+        float salario;
 
         System.out.println("Por favor ingrese la cantidad de horas trabajadas por semana");
-        horas = input.nextInt();
+        horas = input.nextShort();
         input.nextLine();
 
         if (horas <= 40){

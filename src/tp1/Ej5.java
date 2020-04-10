@@ -16,7 +16,7 @@ public class Ej5 {
     public static void main (String [] args) {
         int num1;
         int num2;
-        int resultado;
+        float resultado;
 
         System.out.println("Por favor ingrese un numero");
         num1 = input.nextInt();

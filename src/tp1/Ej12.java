@@ -17,18 +17,18 @@ de acuerdo a los siguientes resultados:
 public class Ej12 {
     private static Scanner input = new Scanner (System.in);
     public static void main (String [] args) {
-        int dado1;
-        int dado2;
-        int dado3;
+        short dado1;
+        short dado2;
+        short dado3;
 
         System.out.println("Ingrese el numero del primer dado");
-        dado1 = input.nextInt();
+        dado1 = input.nextShort();
         input.nextLine();
         System.out.println("Ingrese el numero del segundo dado");
-        dado2 = input.nextInt();
+        dado2 = input.nextShort();
         input.nextLine();
         System.out.println("Ingrese el numero del tercer dado");
-        dado3 = input.nextInt();
+        dado3 = input.nextShort();
         input.nextLine();
 
         if(dado1 == 6 && dado2 == 6 && dado3 == 6){

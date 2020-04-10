@@ -12,11 +12,11 @@ import java.util.Scanner;
 public class Ej8 {
     private static Scanner input = new Scanner (System.in);
     public static void main (String [] args) {
-        int dia;
+        short dia;
 
 
         System.out.println("Por favor ingrese un numero del 1 al 7");
-        dia = input.nextInt();
+        dia = input.nextShort();
         input.nextLine();
 
         switch (dia) {

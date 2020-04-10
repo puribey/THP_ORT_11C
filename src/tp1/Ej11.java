@@ -24,8 +24,8 @@ public class Ej11 {
         String fecha;
         String nombre;
         String producto;
-        int cantidad;
-        int precio;
+        short cantidad;
+        float precio;
 
         System.out.println("Por favor ingrese la fecha en el siguiente formato: YYYYMMDD");
         fecha = input.next();
@@ -37,10 +37,10 @@ public class Ej11 {
         producto = input.next();
         input.nextLine();
         System.out.println("Por favor ingrese la cantidad comprada");
-        cantidad = input.nextInt();
+        cantidad = input.nextShort();
         input.nextLine();
         System.out.println("Por favor ingrese el precio por unidad");
-        precio = input.nextInt();
+        precio = input.nextFloat();
         input.nextLine();
 
         System.out.println("*** TICKET *** \n" +

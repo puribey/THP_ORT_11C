@@ -18,29 +18,29 @@ public class Ej9 {
         String nombre1;
         String nombre2;
         String nombre3;
-        int aporte1;
-        int aporte2;
-        int aporte3;
-        int total;
+        float aporte1;
+        float aporte2;
+        float aporte3;
+        float total;
 
 
         System.out.println("Por favor ingrese su nombre");
         nombre1 = input.next();
         input.nextLine();
         System.out.println("Por favor ingrese el el aporte en $: ");
-        aporte1 = input.nextInt();
+        aporte1 = input.nextFloat();
         input.nextLine();
         System.out.println("Por favor ingrese su nombre");
         nombre2 = input.next();
         input.nextLine();
         System.out.println("Por favor ingrese el el aporte en $: ");
-        aporte2 = input.nextInt();
+        aporte2 = input.nextFloat();
         input.nextLine();
         System.out.println("Por favor ingrese su nombre");
         nombre3 = input.next();
         input.nextLine();
         System.out.println("Por favor ingrese el el aporte en $: ");
-        aporte3 = input.nextInt();
+        aporte3 = input.nextFloat();
         input.nextLine();
         total = aporte1 + aporte2 + aporte3;
 
