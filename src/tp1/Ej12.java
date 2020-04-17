@@ -16,8 +16,8 @@ de acuerdo a los siguientes resultados:
 
 public class Ej12 {
     private static Scanner input = new Scanner (System.in);
-    public static void main (String [] args) {
-        short dado1;
+	public static void main(String[] args) {
+		short dado1;
         short dado2;
         short dado3;
 
@@ -42,5 +42,6 @@ public class Ej12 {
         }
 
         input.close();
-    }
+	}
+
 }

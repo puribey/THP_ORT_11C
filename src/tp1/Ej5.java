@@ -12,9 +12,9 @@ En el caso de que el segundo valor num2 sea cero, mostrar el siguiente mensaje d
 
 
 public class Ej5 {
-    private static Scanner input = new Scanner (System.in);
-    public static void main (String [] args) {
-        int num1;
+	private static Scanner input = new Scanner (System.in);
+	public static void main(String[] args) {
+		int num1;
         int num2;
         float resultado;
 
@@ -31,5 +31,7 @@ public class Ej5 {
             System.out.println(num1 + " / " + num2 + " = " + resultado);
         }
         input.close();
-    }
+
+	}
+
 }

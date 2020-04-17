@@ -8,13 +8,15 @@ y luego muestre un mensaje de bienvenida incluyendo el mismo.
 */
 
 public class Ej3 {
-    private static Scanner input = new Scanner (System.in);
-    public static void main (String [] args) {
-        String nombre = "";
+	private static Scanner input = new Scanner (System.in);
+	public static void main(String[] args) {
+		String nombre = "";
         System.out.println("Por favor ingrese su nombre");
         nombre = input.next();
         input.nextLine();
         System.out.println("Bienvenido/a " + nombre + "!");
         input.close();
-    }
+
+	}
+
 }

@@ -12,10 +12,9 @@ Test3: num1 = 3, num2 = 10, num3= 28. Resultado esperado: El mayor número es nu
 Test4: num1 = 5, num2 = 5, num3= 5. Resultado esperado: Los números son iguales
 */
 
-
 public class Ej7 {
     private static Scanner input = new Scanner (System.in);
-    public static void main (String [] args) {
+	public static void main(String[] args) {
         int num1;
         int num2;
         int num3;
@@ -42,5 +41,7 @@ public class Ej7 {
             }
         }
         input.close();
-    }
+
+	}
+
 }

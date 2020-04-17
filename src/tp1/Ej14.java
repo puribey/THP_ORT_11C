@@ -11,12 +11,11 @@ deberá ingresar dos números enteros para así realizar la operación.
 Informar el resultado por pantalla.
 */
 
-
-
 public class Ej14 {
     private static Scanner input = new Scanner (System.in);
-    public static void main (String [] args) {
-        int num1;
+
+	public static void main(String[] args) {
+		int num1;
         int num2;
         char operacion;
 
@@ -52,5 +51,7 @@ public class Ej14 {
         }
 
         input.close();
-    }
+
+	}
+
 }

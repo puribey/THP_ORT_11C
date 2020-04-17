@@ -1,4 +1,5 @@
 package tp1;
+import java.util.Scanner;
 
 /*
 EJ 8
@@ -7,12 +8,10 @@ pedir un número entre 1 y 7 (inclusive) y mostrar el nombre del día correspond
 Si el día no está en el rango permitido debe emitir por pantalla el mensaje de error "El día ingresado no es válido".
 */
 
-import java.util.Scanner;
-
 public class Ej8 {
     private static Scanner input = new Scanner (System.in);
-    public static void main (String [] args) {
-        short dia;
+	public static void main(String[] args) {
+		short dia;
 
 
         System.out.println("Por favor ingrese un numero del 1 al 7");
@@ -47,5 +46,7 @@ public class Ej8 {
         }
 
         input.close();
-    }
+
+	}
+
 }

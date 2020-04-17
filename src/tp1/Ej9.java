@@ -14,8 +14,8 @@ Nombre: capital aportado: $ ... , Porcentaje del capital: %.... , Monto total ap
 
 public class Ej9 {
     private static Scanner input = new Scanner (System.in);
-    public static void main (String [] args) {
-        String nombre1;
+	public static void main(String[] args) {
+		String nombre1;
         String nombre2;
         String nombre3;
         float aporte1;
@@ -50,4 +50,5 @@ public class Ej9 {
 
         input.close();
     }
+
 }

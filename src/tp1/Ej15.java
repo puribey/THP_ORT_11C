@@ -1,4 +1,5 @@
 package tp1;
+import java.util.Scanner;
 
 /*
 EJ 15
@@ -11,13 +12,10 @@ para indicar si el valor ingresado pertenece al primer conjunto, al segundo, a a
 Definí un lote de prueba de varios números y probá el algoritmo, escribiendo los resultados.
 */
 
-
-import java.util.Scanner;
-
 public class Ej15 {
     private static Scanner input = new Scanner (System.in);
-    public static void main (String [] args) {
-        int num;
+	public static void main(String[] args) {
+		int num;
         boolean estaEnA;
         boolean estaEnB;
         boolean estaEnAmbos;
@@ -38,5 +36,7 @@ public class Ej15 {
         System.out.println("noEstaEnNinguno: " + noEstaEnNinguno);
 
         input.close();
-    }
+
+	}
+
 }

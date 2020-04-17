@@ -15,14 +15,13 @@ Obs: En el caso de que el usuario ingrese una hora menor a 0 o mayor a 24, mostr
 “Ha ingresado una hora incorrecta”
 */
 
-
 public class Ej10 {
-    private static Scanner input = new Scanner (System.in);
+	private static Scanner input = new Scanner (System.in);
     public static final int HORA_APERTURA = 10;
     public static final int HORA_CIERRE = 18;
 
-    public static void main (String [] args) {
-        boolean estaAbierto;
+	public static void main(String[] args) {
+		boolean estaAbierto;
         int hora;
 
         System.out.println("Por favor ingrese la hora");
@@ -41,6 +40,7 @@ public class Ej10 {
         }
 
         input.close();
-    }
+
+	}
 
 }

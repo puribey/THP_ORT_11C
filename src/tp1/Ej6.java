@@ -8,11 +8,10 @@ en una variable llamada num1 y muestre un mensaje por pantalla indicando "el nú
 Deberá utilizar el operador “módulo” es el caracter %.
 */
 
-
 public class Ej6 {
     private static Scanner input = new Scanner (System.in);
-    public static void main (String [] args) {
-        int num1;
+	public static void main(String[] args) {
+		int num1;
 
         System.out.println("Por favor ingrese un numero");
         num1 = input.nextInt();
@@ -24,5 +23,6 @@ public class Ej6 {
             System.out.println("El numero es impar");
         }
         input.close();
-    }
+	}
+
 }

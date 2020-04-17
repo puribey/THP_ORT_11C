@@ -10,18 +10,18 @@ Pedir al usuario que ingrese la cantidad de horas trabajadas en la semana,
 y mostrar por pantalla el salario correspondiente.
 */
 
-
 public class Ej13 {
-    private static Scanner input = new Scanner (System.in);
+	private static Scanner input = new Scanner (System.in);
     public static final int PRECIO_HORA = 16;
     public static final int PRECIO_HORA_EXTRA = 20;
 
-    public static void main (String [] args) {
-        short horas;
+
+	public static void main(String[] args) {
+		int horas;
         float salario;
 
         System.out.println("Por favor ingrese la cantidad de horas trabajadas por semana");
-        horas = input.nextShort();
+        horas = input.nextInt();
         input.nextLine();
 
         if (horas <= 40){
@@ -32,5 +32,7 @@ public class Ej13 {
             System.out.println("Salario: $" + salario);
         }
         input.close();
-    }
+
+	}
+
 }

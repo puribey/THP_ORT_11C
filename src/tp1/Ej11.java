@@ -17,11 +17,10 @@ Precio Unitario: $xxx
 Total a Pagar: $xxxxx
 */
 
-
 public class Ej11 {
     private static Scanner input = new Scanner (System.in);
-    public static void main(String [] args) {
-        String fecha;
+	public static void main(String[] args) {
+		String fecha;
         String nombre;
         String producto;
         short cantidad;
@@ -50,5 +49,7 @@ public class Ej11 {
                 "Cantidad solicitada: " + cantidad + "\n" +
                 "Precio Unitario: $" + precio + "\n" +
                 "Total a Pagar: $" + (precio * cantidad));
-    }
+
+	}
+
 }
