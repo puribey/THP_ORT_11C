@@ -81,7 +81,7 @@ public class Ej10 {
 		} else {
 			System.out.println("Debe ingresar por lo menos un corredor antes de finalizar el programa");
 		}
-
+		input.close();
 	}
 
 	private static int transformarASegundos(int horas, int minutos, int segundos) {

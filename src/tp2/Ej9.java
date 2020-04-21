@@ -38,6 +38,7 @@ public class Ej9 {
 			System.out.println("El promedio del " + (i + 1) + "° grupo es: " + promedio);
 		}
 		;
+		input.close();
 	}
 
 }

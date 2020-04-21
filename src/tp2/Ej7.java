@@ -48,6 +48,7 @@ public class Ej7 {
 			System.out.println("El sistema se ha bloqueado luego de 3 intentos. Vuelva a intentarlo más tarde");
 		}
 		;
+		input.close();
 
 	}
 

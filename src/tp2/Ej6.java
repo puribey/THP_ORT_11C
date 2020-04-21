@@ -49,7 +49,7 @@ public class Ej6 {
 		/* Mostrar variables */
 		System.out.println("El mejor alumno es: " + nombreMejorAlumno);
 		System.out.println("Su promedio es de: " + mejorPromedio);
-
+		input.close();
 	}
 
 }

@@ -26,6 +26,7 @@ public class Ej8 {
 
 		resultado = esMultiplo(num1, num2);
 		System.out.println(resultado);
+		input.close();
 
 	}
 
