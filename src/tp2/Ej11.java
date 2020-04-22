@@ -32,6 +32,7 @@ public class Ej11 {
 		}
 		;
 		System.out.println("El total de la suma es: " + totalSuma);
+		input.close();
 	}
 
 }
