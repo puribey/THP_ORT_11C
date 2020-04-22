@@ -59,6 +59,7 @@ public class Ej12 {
 			case "%":
 				resultado = moduloDeNumeros(num1, num2);
 				break;
+			// TODO: Esta bien que esto este aca?
 			default:
 				System.out.println("Este operador no se encuentra dentro de las opciones");
 			}
@@ -84,6 +85,7 @@ public class Ej12 {
 		return num1 * num2;
 	};
 
+	// TODO: preguntar por los tipos de valor en esta operacion
 	private static double dividirNumeros(int num1, int num2) {
 		return (double) num1 / (double) num2;
 	};
