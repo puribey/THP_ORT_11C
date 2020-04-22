@@ -53,9 +53,10 @@ public class Ej13 {
 			input.nextLine();
 
 			/*
-			 * Segun la materia ingresada agrego un alumno al contador de cada materia Si el
-			 * numero de alumnos es mayor al mayor numero anterior entonces los reemplazo
-			 * Asigno el nombre de esa materia a la materia mas requerida
+			 * TODO: preguntar por este switch Segun la materia ingresada agrego un alumno
+			 * al contador de cada materia Si el numero de alumnos es mayor al mayor numero
+			 * anterior entonces los reemplazo Asigno el nombre de esa materia a la materia
+			 * mas requerida
 			 */
 			switch (materiaDeApoyo) {
 			case "taller":
@@ -98,6 +99,7 @@ public class Ej13 {
 
 	}
 
+	// TODO: no se si esta validacion esta bien como funcion aparte
 	private static boolean validarCurso(String curso) {
 		return curso.equals("a") || curso.equals("b") || curso.equals("c") || curso.equals("d");
 	};
