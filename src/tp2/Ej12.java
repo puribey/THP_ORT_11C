@@ -26,7 +26,6 @@ public class Ej12 {
 		if (operador.equals("f")) {
 			System.out.println("Fin del programa");
 		} else {
-			input.nextLine();
 			System.out.println("Por favor ingrese el primer numero");
 			num1 = input.nextInt();
 			input.nextLine();
