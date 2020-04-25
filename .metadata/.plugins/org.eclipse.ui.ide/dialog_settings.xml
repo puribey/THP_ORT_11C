@@ -7,6 +7,7 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/Users/puri/Documents/ORT/1_1_C/THP"/>
 			<item value="/Users/puri/Documents/ORT_1_1_C/THP/TP1_THP_PB"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
@@ -19,6 +20,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/Users/puri/Documents/ORT/1_1_C/THP/THP_ORT_11C"/>
 			<item value="/Users/puri/Documents/ORT_1_1_C/THP/TP1_THP_PB"/>
 		</list>
 	</section>
