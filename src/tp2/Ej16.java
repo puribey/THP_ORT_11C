@@ -78,7 +78,7 @@ public class Ej16 {
 				 */
 
 				switch (tipoDeMenuElegido) {
-
+				// TODO: Me pregunto si esto se puede modularizar más
 				case "clasico":
 					cantidadClasicos = validarSumaInvitados(cantidadTotalInvitados, sumaInvitados);
 					costoPorClasicos = cantidadClasicos * PRECIO_MENU_CLASICO;
